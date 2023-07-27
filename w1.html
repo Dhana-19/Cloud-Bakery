@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Home Cookie</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    </head>
+    <style>
+    *
+    {
+        padding: 0;
+        margin:0;
+        box-sizing:border-box;
+    }
+    .shopname
+    {
+        text-align:center;
+    }
+    h1
+    {
+        font-weight: bold;
+        font-size: 300px;
+        font-family:cursive;
+
+    }
+    body
+    {
+        background-image: url(/pexels-photo-14661826.jpeg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+        top: 100%;
+    }
+    .body
+    {
+        /*background: #d5e262;*/
+        text-align: center;
+        font-size: 60px;
+    }
+    .body ul
+    {
+        display: inline-flex;
+        list-style: none;
+        color:#fff;
+    }
+    .body ul li
+    {
+        width: 800px;
+        margin: 15px;
+        padding:30px;
+    }
+    .body ul li a
+    {
+        text-decoration: none;
+        color:#fff;
+
+    }
+    .button, .body ul li:hover
+    {
+        background:#e44747;
+        border-radius: 10px;
+    }
+    .subbody
+    {
+        display:none;
+    }
+    .body ul li:hover .subbody 
+    {
+        display: block;
+        position: absolute;
+        background: #e44747; ;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+    .body ul li:hover .subbody ul
+    {
+        display:block;
+        margin:10px;
+    }
+
+    </style>
+
+    <body>
+        <div class="body">
+            <h1 class="shopname">Home Cookie</h1>
+            <ul>
+                <li class="button"class="button"><span class="fa fa-birthday-cake"></span><a href="home.html">  HOME</a></li>
+                <li class="button"><a href="#"><span class="fa fa-utensils"></span> MENU</a>
+                    
+                    <div class="subbody">
+                        <ul>
+                            <li><a href="slider1.html">PASTERIS</a></li>
+                        </ul>
+                    </div>
+                </li>
+                    
+                <li class="button"><span class="fa fa-hotdog"></span><a href="t2.html"> OFFERS</a></li>
+                <li class="button"><a href="a4.html">ABOUT US</a></li>
+            </ul>
+        </div>
+    </body>
+    
+</html>
